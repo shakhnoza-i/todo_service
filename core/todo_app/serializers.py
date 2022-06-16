@@ -14,10 +14,3 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
          model = Task
          exclude = ('description',)
-
-
-class TaskSerializerComplete(serializers.ModelSerializer):
-     
-    class Meta:
-         model = Task
-         fields = ('completed',)

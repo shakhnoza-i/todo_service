@@ -1,5 +1,3 @@
-import requests
-from datetime import datetime, timedelta
 from celery import shared_task
 from django.contrib.auth import get_user_model # default user model
 from django.core.mail import send_mail

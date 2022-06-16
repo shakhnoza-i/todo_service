@@ -1,6 +1,5 @@
 from todo_app.models import Task
-from todo_app.serializers import (TaskSerializer, TaskSerializerAll,
-                                  TaskSerializerComplete)
+from todo_app.serializers import TaskSerializer, TaskSerializerAll
 from todo_app.tasks import send_mail_func
 from rest_framework import status
 from rest_framework.response import Response
